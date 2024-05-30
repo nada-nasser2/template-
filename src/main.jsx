@@ -4,11 +4,12 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.js'
 import App from './App.jsx'
 import './index.scss'
+import { RecoilRoot } from 'recoil'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+<RecoilRoot> 
+    <App /> 
+  </RecoilRoot>
 )
 // #Essentials
 // npm i -D react-router-dom@latest

@@ -1,0 +1,57 @@
+#HeroSection{
+    background-color: #2f5468;
+    background-position-y: -12.152px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    height: 107vh;
+    position: relative;
+    .custom-shape-divider-bottom-1716893691 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-bottom-1716893691 svg {
+        position: relative;
+        display: block;
+        width: calc(300% + 1.3px);
+        height: 143px;
+    }
+    
+    .custom-shape-divider-bottom-1716893691 .shape-fill {
+        fill: #FFFFFF;
+    }
+    .detailsAccount{
+        position: absolute;
+        bottom: 30%;
+        left: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    h1{
+        font-size: 83px;
+        color: white;
+        font-family: "Playfair Display", serif;
+    }
+    .span{
+        width: 48px;
+        height: .8px;
+        background-color: #D7A697;
+    }
+    .p_myaccount{
+        font-size: 18px;
+        color: #D7A697;
+    }
+    .p_detalis{
+        font-family: "Roboto", Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        font-size: 1.320rem;
+        line-height: 1.6;
+        color: white;
+    }
+}
